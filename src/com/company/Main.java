@@ -12,6 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
 
+
         int[] array = {10,20,30,40,50};
 
         System.out.println(Arrays.toString(array));
@@ -21,11 +22,11 @@ public class Main {
         System.out.println(Arrays.toString(array));
 
 
-        int count = scan.nextInt();
-
-        int[] returnedArray = readIntegers(count);
-        int returnedMin = findMin(returnedArray);
-        System.out.println("Min is : " + returnedMin);
+//        int count = scan.nextInt();
+//
+//        int[] returnedArray = readIntegers(count);
+//        int returnedMin = findMin(returnedArray);
+//        System.out.println("Min is : " + returnedMin);
     }
     private static   int[] printArray(int count){
         int[]array = new int[count];
